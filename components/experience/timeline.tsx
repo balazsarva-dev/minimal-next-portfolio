@@ -95,7 +95,7 @@ const Timeline: React.FC<TimelineProps> = ({ experiences }) => {
                     {t(experience.location)}
                   </p>
                   <p className="text-sm text-muted-foreground line-clamp-2">
-                    {experience.description[0]}
+                    {t(experience.description[0])}
                   </p>
                 </div>
               </div>

@@ -92,7 +92,7 @@ export default async function ExperienceDetailPage({
                   className="text-base leading-relaxed flex items-start gap-3"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  {desc}
+                  <DictText text={desc} />
                 </li>
               ))}
             </ul>
@@ -116,7 +116,7 @@ export default async function ExperienceDetailPage({
                   className="text-base leading-relaxed flex items-start gap-3"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  {achievement}
+                  <DictText text={achievement} />
                 </li>
               ))}
             </ul>
